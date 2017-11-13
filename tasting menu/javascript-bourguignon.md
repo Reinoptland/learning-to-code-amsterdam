@@ -1,0 +1,59 @@
+# JAVASCRIPT BOURGUIGNON
+
+We are going to modify an existing javascript game called Fruitdrop. It was designed by Robrecht Jurriaans (CTO of Bomberbot) You can find it this url:
+
+https://thimbleprojects.org/reinoptland/354675
+
+The first step is to press the "Remix" to get a version of the code for you to edit
+
+There are two script files. p5.play.js and sketch.js. The game logic is in sketch.js so we will be modifying that.
+
+### P5 Library
+
+The p5.play.js file is a library. A library is a collection of functions written by other programmers that we can use. By using libraries we don't have to start programming from scratch. The p5.js libraries contains all kinds of functions for games, animations, drawing and music. This specific one p5.play, provides sprites, animations, input and collision functions for games and gamelike applications.
+
+You can find the p5.play.js documentation here:  
+ http://p5play.molleindustria.org/
+
+General javascript documentation can be found here:
+https://developer.mozilla.org/bm/docs/Web/JavaScript
+
+(but most challenges can be completed by making small changes tot the existing code):
+
+### **Challenges**
+
+##### Easy:
+- [ ] Make the game screen smaller or bigger
+- [ ] Change the fruit from apple to banana
+- [ ] Make the fruit twice as big
+- [ ] Change the color of the background
+- [ ] Change the color of the text
+- [ ] Change the points you get for catching a fruit from 1 (current) to 2 points
+- [ ] Change the penalty for missing a fruit from 1 (current) to 5 points
+- [ ] Make the fruit fall faster from the start
+
+Solution easy: https://thimbleprojects.org/reinoptland/354686
+
+##### Medium:
+- [ ] Write an if statement that creates some the text "good job!"" when the score is 10
+- [ ] Write an if statement that creates some another compliment when the score reaches 20
+- [ ] Write a score that creates some text when the score reaches 10, 20, 30, 40 etc..
+- [ ] Remove an if statement that prevents your points from going below zero
+- [ ] Add an if statement that the fruit only starts falling when your points are above zero OR equal to zero
+- [ ] Add an if statement that shows the text "Game Over!" when your points are below zero
+
+Solutions:
+ https://thimbleprojects.org/reinoptland/354696
+
+##### Hard:
+
+- [ ] Make the fruit go from left to right instead of top to bottom
+
+Solution: https://thimbleprojects.org/reinoptland/354721
+
+- [ ] Make another fruit that also falls
+
+Solutions:
+
+Ugly: https://thimbleprojects.org/reinoptland/354725  
+Elegant: https://thimbleprojects.org/reinoptland/354726
