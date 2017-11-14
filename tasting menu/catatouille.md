@@ -9,8 +9,7 @@ Today we are going to make our first computer game using scratch!
 
 Follow some scratch "Step-by-Step" tutorials. You can find by pressing the question mark in the scratch editor.
 
-![Help Closed](./images/help_closed.png)
-![Help Open](./images/help_open.png)
+![Tutorial](./images/scratch-to-tutorial.png)
 
 ### When you fell like you've got the hang of it:
 
