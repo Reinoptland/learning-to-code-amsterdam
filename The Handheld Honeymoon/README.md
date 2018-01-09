@@ -2,6 +2,8 @@
 
 The handheld honeymoon is a trip for first time travellers. Who have little to no programming experience. It is meant to give you a taste of what programming is like.
 
+![Honeymoon](../images/city-trip.jpg)
+
 ## *How does it work?*
 
 * This travel bucketlist has starting off points, tools and challenges
@@ -23,3 +25,7 @@ The handheld honeymoon is a trip for first time travellers. Who have little to n
 
 ### Take a guided tour
 [Do a programming tutorial for your chosen language](./5.take-a-guided-tour.md)
+
+### Take some pictures
+
+[Take notes on the basics](./6.take-some-pictures.md)
