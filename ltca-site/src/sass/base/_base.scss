@@ -1,0 +1,19 @@
+/* Basic reset */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // Setup 1 rem to be 10px
+}
+
+body {
+    padding: 3.5rem; // White outline around the page
+
+    box-sizing: border-box;
+}

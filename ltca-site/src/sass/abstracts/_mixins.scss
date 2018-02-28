@@ -1,0 +1,17 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin background-clip($property) {
+    -webkit-background-clip: $property;
+    background-clip: $property;
+}
+
+@mixin perspective($size) {
+    -moz-perspective: $size;
+    perspective: $size;
+}

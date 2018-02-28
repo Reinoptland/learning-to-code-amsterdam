@@ -1,0 +1,71 @@
+body {
+    /* Setting up fonts through inheritance */
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: $grey;
+}
+
+.heading-primary {
+    color: $white;
+    text-transform: uppercase;
+
+    backface-visibility: hidden; // Prevent animation shaking at the end
+
+    &--main {
+        display: block; // Display block to occupy all the space is given & to do an automatic line-break
+
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+
+        animation-name: moveInLeft;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+    }
+
+    &--sub {
+        display: block; // Display block to occupy all the space is given & to do an automatic line-break
+
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.7rem;
+        margin-bottom: 6rem;
+
+        /* animation-name: moveInRight;
+        animation-duration: 2s;
+        animation-delay: 0.5s; */
+
+        animation: moveInRight 2s ease-out; // Shorthand
+    }
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, $primary-light, $primary-dark);
+    color: transparent;
+    transition: all .2s;
+
+    @include background-clip(text);
+
+    &:hover {
+        transform:  skewY(2deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($black, .2);
+    }
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: 1.6rem;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
