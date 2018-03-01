@@ -1,0 +1,28 @@
+.section-about {
+    background-color: $grey-light-1;
+    padding: 25rem 0;
+    margin-top: -20vh;
+}
+
+.section-features {
+    margin-top: -20vh;
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($primary-light, 0.788), 
+        rgba($primary-dark, 0.5)),
+    url(../img/nat-4.jpg);
+    background-size: cover;
+
+    transform: skewY(-7deg);
+
+    & > * {
+        transform: skewY(7deg);
+    }
+}
+
+.section-tours {
+    background-color: $grey-light-1;
+    padding: 25rem 0 50rem 0;
+    margin-top: -20vh;
+}
