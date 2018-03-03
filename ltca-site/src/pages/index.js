@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "gatsby-link"
 
 import About from "../modules/home/about"
 import Features from "../modules/home/features"
@@ -17,7 +18,6 @@ class Index extends React.Component {
     console.log(this.state);
     return (
       <div>
-        <button onClick={() => scrollToComponent(this.Destinations, { offset: 0, align: 'top', duration: 500})}>Go To Red</button>
         <Header 
           mainHeading="Learning to code Amsterdam"
           subHeading="Start your programming journey"
@@ -28,6 +28,7 @@ class Index extends React.Component {
         <About/>
         <Features/>
         <Destinations ref="Destinations"/>
+        <Link to="/destinations">Hi</Link>
       </div>
     )
   }

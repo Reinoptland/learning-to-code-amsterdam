@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1f7207888eedf6efc4271842e6b24c00",
+        "contentDigest": "b50928e6ace6ed041fef4abc481511f5",
         "owner": "internal-data-bridge"
       }
     },
@@ -449,11 +449,237 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.25",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.25",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a6b79778a21f49ee51663612fdcf7f3b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.34",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.34",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1611671f8b3be59c2d7917114de497dd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "b5237ab1fb4ad8678704111899599110",
+      "version": "fffd87c017bec3b884fef488a7c672dd",
       "pluginOptions": {
         "plugins": []
       },
@@ -490,6 +716,14 @@
             "version": "latest"
           },
           {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.25"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.34"
+          },
+          {
             "name": "react-scroll-to-component",
             "version": "^1.0.2"
           },
@@ -514,26 +748,1583 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d7b9108beee061f7eb1d779643ae422b",
+        "contentDigest": "696ccd394cdce1211f191deb2ef242df",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
-      "siteMetadata": {},
+      "siteMetadata": {
+        "title": "Learning to code Amsterdam"
+      },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-03T09:33:04.581Z",
+      "buildTime": "2018-03-03T13:42:43.835Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "17de6767e4b16eb7e95bbfb5ad53b60f",
+        "contentDigest": "080e66269dbbb2bf020eb073aabb7bd0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "123fc273146afc449256e126bcc79a81",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown",
+      "relativePath": "",
+      "extension": "",
+      "size": 204,
+      "prettySize": "204 B",
+      "modifiedTime": "2018-03-03T11:57:16.000Z",
+      "accessTime": "2018-03-03T13:42:45.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-03-03T11:57:02.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src",
+      "base": "markdown",
+      "ext": "",
+      "name": "markdown",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212315,
+      "blocks": 0,
+      "atime": "2018-03-03T13:42:45.000Z",
+      "mtime": "2018-03-03T11:57:16.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-03-03T11:57:02.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7c1bdbd968faaecce4dc958c1a068d35",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion",
+      "relativePath": "The Cliffs of Confusion",
+      "extension": "",
+      "size": 238,
+      "prettySize": "238 B",
+      "modifiedTime": "2018-01-09T02:46:53.000Z",
+      "accessTime": "2018-03-03T13:42:45.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T00:41:47.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown",
+      "base": "The Cliffs of Confusion",
+      "ext": "",
+      "name": "The Cliffs of Confusion",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212324,
+      "blocks": 0,
+      "atime": "2018-03-03T13:42:45.000Z",
+      "mtime": "2018-01-09T02:46:53.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T00:41:47.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3fce76dc8c5ac909806612ec72baa646",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair",
+      "relativePath": "The Desert of Despair",
+      "extension": "",
+      "size": 204,
+      "prettySize": "204 B",
+      "modifiedTime": "2018-02-28T14:32:14.000Z",
+      "accessTime": "2018-03-03T13:42:45.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-02-28T14:32:14.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown",
+      "base": "The Desert of Despair",
+      "ext": "",
+      "name": "The Desert of Despair",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212325,
+      "blocks": 0,
+      "atime": "2018-03-03T13:42:45.000Z",
+      "mtime": "2018-02-28T14:32:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-02-28T14:32:14.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "94acfb66452f726a053de46aa06f5f11",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "relativePath": "The Handheld Honeymoon",
+      "extension": "",
+      "size": 340,
+      "prettySize": "340 B",
+      "modifiedTime": "2018-01-09T00:44:53.000Z",
+      "accessTime": "2018-03-03T13:42:45.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-12T18:39:08.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown",
+      "base": "The Handheld Honeymoon",
+      "ext": "",
+      "name": "The Handheld Honeymoon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212326,
+      "blocks": 0,
+      "atime": "2018-03-03T13:42:45.000Z",
+      "mtime": "2018-01-09T00:44:53.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-12T18:39:08.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a9ae82a053d6635a465f69cac89e220d",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "relativePath": "images",
+      "extension": "",
+      "size": 374,
+      "prettySize": "374 B",
+      "modifiedTime": "2018-02-28T14:32:14.000Z",
+      "accessTime": "2018-03-03T13:42:45.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-12T20:13:30.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212323,
+      "blocks": 0,
+      "atime": "2018-03-03T13:42:45.000Z",
+      "mtime": "2018-02-28T14:32:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-12T20:13:30.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md",
+      "relativePath": "The Desert of Despair/2.mulit-day-desert-trek.md",
+      "extension": "md",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-02-28T14:32:14.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-02-28T14:32:14.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair",
+      "base": "2.mulit-day-desert-trek.md",
+      "ext": ".md",
+      "name": "2.mulit-day-desert-trek",
+      "relativeDirectory": "The Desert of Despair",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212342,
+      "blocks": 0,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-02-28T14:32:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-02-28T14:32:14.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md",
+      "relativePath": "The Desert of Despair/3.share-your-desert-story.md",
+      "extension": "md",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-02-28T14:32:14.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-02-28T14:32:14.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair",
+      "base": "3.share-your-desert-story.md",
+      "ext": ".md",
+      "name": "3.share-your-desert-story",
+      "relativeDirectory": "The Desert of Despair",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212343,
+      "blocks": 0,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-02-28T14:32:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-02-28T14:32:14.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7865880c89576bdbb8d70265d839a644",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md",
+      "relativePath": "The Handheld Honeymoon/1.html-css-tasting.md",
+      "extension": "md",
+      "size": 975,
+      "prettySize": "975 B",
+      "modifiedTime": "2018-01-08T23:45:04.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-13T22:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "base": "1.html-css-tasting.md",
+      "ext": ".md",
+      "name": "1.html-css-tasting",
+      "relativeDirectory": "The Handheld Honeymoon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212346,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-08T23:45:04.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-13T22:09:09.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/.DS_Store absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7cbf4ebda62e9318ffdfc3285b9901e6",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/.DS_Store",
+      "relativePath": "The Handheld Honeymoon/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-20T19:28:07.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-14T00:21:34.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "The Handheld Honeymoon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212345,
+      "blocks": 16,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-02-20T19:28:07.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-14T00:21:34.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "844e3007ffe3b5ecdb5b0a3e85518877",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md",
+      "relativePath": "The Handheld Honeymoon/2.visit-the-zoo.md",
+      "extension": "md",
+      "size": 1041,
+      "prettySize": "1.04 kB",
+      "modifiedTime": "2018-01-09T00:45:05.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-13T22:10:39.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "base": "2.visit-the-zoo.md",
+      "ext": ".md",
+      "name": "2.visit-the-zoo",
+      "relativeDirectory": "The Handheld Honeymoon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212347,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T00:45:05.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-13T22:10:39.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b9aba8535a6729aeb9309fe2397a101b",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md",
+      "relativePath": "The Handheld Honeymoon/3.take-a-swim-in-the-sea.md",
+      "extension": "md",
+      "size": 3023,
+      "prettySize": "3.02 kB",
+      "modifiedTime": "2018-01-08T23:43:39.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-13T22:11:57.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "base": "3.take-a-swim-in-the-sea.md",
+      "ext": ".md",
+      "name": "3.take-a-swim-in-the-sea",
+      "relativeDirectory": "The Handheld Honeymoon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212348,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-08T23:43:39.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-13T22:11:57.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "624245ad395420d4ecda8bd5c10f720f",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md",
+      "relativePath": "The Handheld Honeymoon/4.talk-to-a-local.md",
+      "extension": "md",
+      "size": 1876,
+      "prettySize": "1.88 kB",
+      "modifiedTime": "2018-01-08T23:58:28.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-08T23:44:03.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "base": "4.talk-to-a-local.md",
+      "ext": ".md",
+      "name": "4.talk-to-a-local",
+      "relativeDirectory": "The Handheld Honeymoon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212349,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-08T23:58:28.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-08T23:44:03.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "02a76cc672a83ef61983e2efef2e3310",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md",
+      "relativePath": "The Handheld Honeymoon/5.take-a-guided-tour.md",
+      "extension": "md",
+      "size": 746,
+      "prettySize": "746 B",
+      "modifiedTime": "2018-01-09T00:17:08.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-08T23:54:31.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "base": "5.take-a-guided-tour.md",
+      "ext": ".md",
+      "name": "5.take-a-guided-tour",
+      "relativeDirectory": "The Handheld Honeymoon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212350,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T00:17:08.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-08T23:54:31.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "501030b5f9beb5fdcfe76c925be8d58f",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md",
+      "relativePath": "The Handheld Honeymoon/README.md",
+      "extension": "md",
+      "size": 946,
+      "prettySize": "946 B",
+      "modifiedTime": "2018-01-09T00:45:57.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-12T18:49:43.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "base": "README.md",
+      "ext": ".md",
+      "name": "README",
+      "relativeDirectory": "The Handheld Honeymoon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212352,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T00:45:57.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-12T18:49:43.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4bbd82d24bd14b8e316a8dd289c7e31f",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md",
+      "relativePath": "The Handheld Honeymoon/6.take-some-pictures.md",
+      "extension": "md",
+      "size": 828,
+      "prettySize": "828 B",
+      "modifiedTime": "2018-01-09T00:29:06.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T00:19:56.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon",
+      "base": "6.take-some-pictures.md",
+      "ext": ".md",
+      "name": "6.take-some-pictures",
+      "relativeDirectory": "The Handheld Honeymoon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212351,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T00:29:06.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T00:19:56.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f00fdf1c6e385783ed85b01265eaabf6",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md",
+      "relativePath": "The Desert of Despair/1.buy-a-camel.md",
+      "extension": "md",
+      "size": 6358,
+      "prettySize": "6.36 kB",
+      "modifiedTime": "2018-02-28T14:32:14.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-02-28T14:32:14.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair",
+      "base": "1.buy-a-camel.md",
+      "ext": ".md",
+      "name": "1.buy-a-camel",
+      "relativeDirectory": "The Desert of Despair",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212341,
+      "blocks": 16,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-02-28T14:32:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-02-28T14:32:14.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2349d825ed7344106853b6837d415fba",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md",
+      "relativePath": "The Desert of Despair/README.md",
+      "extension": "md",
+      "size": 1344,
+      "prettySize": "1.34 kB",
+      "modifiedTime": "2018-02-28T14:32:14.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-02-28T14:32:14.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair",
+      "base": "README.md",
+      "ext": ".md",
+      "name": "README",
+      "relativeDirectory": "The Desert of Despair",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212344,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-02-28T14:32:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-02-28T14:32:14.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1e19d524695a584f76adb970457653d2",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md",
+      "relativePath": "The Cliffs of Confusion/1.get-a-ski-pass.md",
+      "extension": "md",
+      "size": 735,
+      "prettySize": "735 B",
+      "modifiedTime": "2018-03-03T12:51:20.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T12:51:20.000Z",
+      "birthTime": "2018-01-09T01:09:25.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion",
+      "base": "1.get-a-ski-pass.md",
+      "ext": ".md",
+      "name": "1.get-a-ski-pass",
+      "relativeDirectory": "The Cliffs of Confusion",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212336,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-03-03T12:51:20.000Z",
+      "ctime": "2018-03-03T12:51:20.000Z",
+      "birthtime": "2018-01-09T01:09:25.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "13f80e3a88fa2aef09958d097c4b446a",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md",
+      "relativePath": "The Cliffs of Confusion/2.rent-skiing-gear.md",
+      "extension": "md",
+      "size": 2460,
+      "prettySize": "2.46 kB",
+      "modifiedTime": "2018-01-09T01:48:17.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T01:09:39.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion",
+      "base": "2.rent-skiing-gear.md",
+      "ext": ".md",
+      "name": "2.rent-skiing-gear",
+      "relativeDirectory": "The Cliffs of Confusion",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212337,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T01:48:17.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T01:09:39.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1ffee346b2a9529b2cbcc21b38b14b3e",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md",
+      "relativePath": "The Cliffs of Confusion/3.spend-a-day-skiing.md",
+      "extension": "md",
+      "size": 1205,
+      "prettySize": "1.21 kB",
+      "modifiedTime": "2018-01-09T02:04:25.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T01:10:03.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion",
+      "base": "3.spend-a-day-skiing.md",
+      "ext": ".md",
+      "name": "3.spend-a-day-skiing",
+      "relativeDirectory": "The Cliffs of Confusion",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212338,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T02:04:25.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T01:10:03.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7b1a89bcf7980017ef3149e7a9569832",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md",
+      "relativePath": "The Cliffs of Confusion/4.go-off-piste.md",
+      "extension": "md",
+      "size": 67,
+      "prettySize": "67 B",
+      "modifiedTime": "2018-01-09T02:05:14.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T01:10:17.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion",
+      "base": "4.go-off-piste.md",
+      "ext": ".md",
+      "name": "4.go-off-piste",
+      "relativeDirectory": "The Cliffs of Confusion",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212339,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T02:05:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T01:10:17.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md absPath of file",
+      "children": [
+        "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "12c5d557998f4f19c563e75f19dfb3f2",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md",
+      "relativePath": "The Cliffs of Confusion/README.md",
+      "extension": "md",
+      "size": 1036,
+      "prettySize": "1.04 kB",
+      "modifiedTime": "2018-01-09T02:47:11.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T02:19:59.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion",
+      "base": "README.md",
+      "ext": ".md",
+      "name": "README",
+      "relativeDirectory": "The Cliffs of Confusion",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212340,
+      "blocks": 8,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T02:47:11.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T02:19:59.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/.DS_Store absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "11117a6ff52237ff029f8d5480e73323",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/.DS_Store",
+      "relativePath": "images/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-01-09T00:45:23.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-14T00:29:54.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212327,
+      "blocks": 16,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T00:45:23.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-14T00:29:54.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/git - roadmap.sketch absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/git - roadmap.sketch absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b294f30f7264160c5c9a61b382675b1a",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/git - roadmap.sketch",
+      "relativePath": "images/git - roadmap.sketch",
+      "extension": "sketch",
+      "size": 6365,
+      "prettySize": "6.37 kB",
+      "modifiedTime": "2018-02-28T14:32:14.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-02-28T14:32:14.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": "git - roadmap.sketch",
+      "ext": ".sketch",
+      "name": "git - roadmap",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212331,
+      "blocks": 16,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-02-28T14:32:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-02-28T14:32:14.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/scratch-to-tutorial.png absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/scratch-to-tutorial.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "24f3dce90a5d15957a8f3da7416dd48f",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/scratch-to-tutorial.png",
+      "relativePath": "images/scratch-to-tutorial.png",
+      "extension": "png",
+      "size": 51314,
+      "prettySize": "51.3 kB",
+      "modifiedTime": "2017-11-14T00:28:18.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2017-11-14T00:28:18.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": "scratch-to-tutorial.png",
+      "ext": ".png",
+      "name": "scratch-to-tutorial",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212333,
+      "blocks": 104,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2017-11-14T00:28:18.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2017-11-14T00:28:18.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/city-trip.jpg absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/city-trip.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "00217c9dc8b900918083fe96f88b55f5",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/city-trip.jpg",
+      "relativePath": "images/city-trip.jpg",
+      "extension": "jpg",
+      "size": 118108,
+      "prettySize": "118 kB",
+      "modifiedTime": "2018-01-09T00:43:51.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T00:43:51.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": "city-trip.jpg",
+      "ext": ".jpg",
+      "name": "city-trip",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212329,
+      "blocks": 232,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T00:43:51.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T00:43:51.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/ski-trip.jpg absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/ski-trip.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f1225d52b5d489a62d58f05af2b1f71e",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/ski-trip.jpg",
+      "relativePath": "images/ski-trip.jpg",
+      "extension": "jpg",
+      "size": 212798,
+      "prettySize": "213 kB",
+      "modifiedTime": "2018-01-09T00:53:21.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T00:53:21.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": "ski-trip.jpg",
+      "ext": ".jpg",
+      "name": "ski-trip",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212334,
+      "blocks": 416,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T00:53:21.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T00:53:21.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md absPath of file",
+      "internal": {
+        "content": "",
+        "contentDigest": "2d28fb700c3f14fbda4df89b4ea11f9e",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/2.mulit-day-desert-trek.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md absPath of file",
+      "internal": {
+        "content": "",
+        "contentDigest": "2d28fb700c3f14fbda4df89b4ea11f9e",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/3.share-your-desert-story.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md absPath of file",
+      "internal": {
+        "content": "# HTML/CSS Tasting\n\nWe are going to build our first website with Thimble!  \nThimble is a an online editor with which you can learn to build websites.\n* Go to https://thimble.mozilla.org/\n* Click \"start a project from scratch\".\n\n### **Challenges:**\n\n- [ ] Find out what HTML is used for and what CSS is used for\n- [ ] Find out what a HTML tag is\n- [ ] Try adding an image to the page\n- [ ] Make a link to your favourite website\n- [ ] Try changing the color of the background of the page\n- [ ] Try to centre the some text on your webpage\n- [ ] Make a second page on your website and link to it from your first page\n- [ ] What is a \"class\" and what can you use it for?\n- [ ] Make the some text of your page change color when you hover over it\n\nGood sources to use:\n\nW3Schools: https://www.w3schools.com/  \nMDN: https://developer.mozilla.org/\n\n### When you feel like you got the hang of it :\n\n##### - Sketch a website idea\n##### - See if you can make your design with HTML / CSS\n",
+        "contentDigest": "c945ec802de53d50caea3956c4c5ef8b",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/1.html-css-tasting.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md absPath of file",
+      "internal": {
+        "content": "# Visit the Zoo\n\nToday we are going to make our first computer game using scratch!\n\n* Go to https://scratch.mit.edu/\n* Click on \"create\" (at the top of the page)\n\n### First steps:\n\nFollow some scratch \"Step-by-Step\" tutorials. You can find by pressing the question mark in the scratch editor.\n\n![Tutorial](../images/scratch-to-tutorial.png)\n\n### When you fell like you've got the hang of it:\n\n**Challenges** ( Or create something crazy that you think of yourself! )\n\n- [ ] Make a cat that you can move using the arrow keys\n- [ ] Make a mouse that disappears when the cat touches it\n- [ ] Every time a mouse is caught a new mouse appears in a random location\n- [ ] Make the mouse run away randomly (easy), from the cat (harder)\n- [ ] Make a score variable (in data section)\n- [ ] Make the score change by 1 every time you catch a mouse (using costumes)\n- [ ] Animate the cat and mouse\n- [ ] Compose your own music to play during the game\n- [ ] Create a time limit of 30 seconds\n- [ ] Create a high score variable that saves the highest score\n",
+        "contentDigest": "54e90da7a1003cbfbefb6005633caf2a",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/2.visit-the-zoo.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md absPath of file",
+      "internal": {
+        "content": "# Take a swim in the Sea\n\nRemixing a javascript game is diving right in! Javascript is more challenging\nthan HTML/CSS because it is easier to make syntax errors and break your code.\nIn addition, this game contains loops, conditional statements and functions\nwhich you might be using for the first time.\n\nRemixing a Javascript game without any knowledge of javascript can be\nchallenging. But you can achieve most challenges by changing values and copying\nand pasting from other parts of the program. Solutions to the challenges are provided below each set of challenges. Good luck!\n\nWe are going to modify an existing javascript game called Fruitdrop. It was designed by Robrecht Jurriaans (CTO of Bomberbot) You can find it this url:\n\nhttps://thimbleprojects.org/reinoptland/354675\n\nThe first step is to press the \"Remix\" to get a version of the code for you to edit\n\nThere are two script files. p5.play.js and sketch.js. The game logic is in sketch.js so we will be modifying that.\n\n### P5 Library\n\nThe p5.play.js file is a library. A library is a collection of functions written by other programmers that we can use. By using libraries we don't have to start programming from scratch. The p5.js libraries contains all kinds of functions for games, animations, drawing and music. This specific one p5.play, provides sprites, animations, input and collision functions for games and gamelike applications.\n\nYou can find the p5.play.js documentation here:  \n http://p5play.molleindustria.org/\n\nGeneral javascript documentation can be found here:\nhttps://developer.mozilla.org/bm/docs/Web/JavaScript\n\n\n### **Challenges**\n\n##### Easy:\n- [ ] Make the game screen smaller or bigger\n- [ ] Change the fruit from apple to banana\n- [ ] Make the fruit twice as big\n- [ ] Change the color of the background\n- [ ] Change the color of the text\n- [ ] Change the points you get for catching a fruit from 1 (current) to 2 points\n- [ ] Change the penalty for missing a fruit from 1 (current) to 5 points\n- [ ] Make the fruit fall faster from the start\n\nSolution easy: https://thimbleprojects.org/reinoptland/354686\n\n##### Medium:\n- [ ] Write an if statement that creates some the text \"good job!\"\" when the score is 10\n- [ ] Write an if statement that creates some another compliment when the score reaches 20\n- [ ] Write a score that creates some text when the score reaches 10, 20, 30, 40 etc..\n- [ ] Remove an if statement that prevents your points from going below zero\n- [ ] Add an if statement that the fruit only starts falling when your points are above zero OR equal to zero\n- [ ] Add an if statement that shows the text \"Game Over!\" when your points are below zero\n\nSolutions:\n https://thimbleprojects.org/reinoptland/354696\n\n##### Hard:\n\n- [ ] Make the fruit go from left to right instead of top to bottom\n\nSolution: https://thimbleprojects.org/reinoptland/354721\n\n- [ ] Make another fruit that also falls\n\nSolutions:\n\nUgly: https://thimbleprojects.org/reinoptland/354725  \nElegant: https://thimbleprojects.org/reinoptland/354726\n",
+        "contentDigest": "b99adfe69dee47192db735ccd928fad0",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/3.take-a-swim-in-the-sea.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md absPath of file",
+      "internal": {
+        "content": "# Talk to a local\n\n## Choosing a programming language\n\n*(excerpt from reddit/r/programming)*:\n\nWhich programming language should I start with?\nThere are two common misconceptions that cause people to ask this question. The first is that there actually is a \"best\" programming language for learning and the second is that the first language you learn will decide what the rest of your programming career looks like.\n\nIn reality, there is no best language to start with, and your first language has virtually no lasting effect on your eventual career. Programming languages can look very different on the surface, but the majority of the fundamental concepts will transfer from language to language. Learning a new language will also get easier over time -- it can take a beginner months before they feel comfortable with their first language; an experienced programmer can become familiar with a new language in a matter of days.\n\nAll programmers should ideally have experience in multiple types of languages. Once you are comfortable with one language, move on to another language which differs in some fundamental way. As you learn more languages, you will become more equipped to choose the right tool for the task at hand, which is a hallmark of a good programmer. Since programming concepts are what matter most, we recommended that beginners start with one of the mainstream languages from the table below. All these languages enable beginners to start writing simple applications and practice programming without having to use any of the more complex language features.\n\n## **Tools to help you choose:**\n\n- ### [Simple questions to determine a programming language for you (or to compare languages):](http://www.bestprogramminglanguagefor.me/)\n\n- ### [A no nonsense approach to choosing a language](http://choosing-a-language.techboss.co)\n\n- ### Do your own research ;)\n",
+        "contentDigest": "7042748bcec51bdd35b676ada8e76e6b",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/4.talk-to-a-local.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md absPath of file",
+      "internal": {
+        "content": "# Take a guided tour\n\nNow that you've chosen a language it's time to get the basics down. I recommend doing a tutorial online. \n\nThis guided tour is best done in combination with [Take some pictures](./6.take-some-pictures.md) to create a cheat sheet for yourself as you're doing the tutorial.\n\n## Resources:\n\n**If you chosen HTML/CSS, JavaScript, Python, Ruby or Java I can recommend:**\n\n[CodeCademy](https://www.codecademy.com/catalog/subject/web-development)\n\nIt has lightweight tutorials that teach the basic syntax of a programming\nlanguage.\n\n\n**If you've chosen something other, have a look at this list of resources:**\n\n[Curated Programming Resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md)\n",
+        "contentDigest": "dd539c4ec6b7dadd53c1c1a9883e8927",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/5.take-a-guided-tour.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md absPath of file",
+      "internal": {
+        "content": "# *The Handheld Honeymoon*\n\nThe handheld honeymoon is a trip for first time travellers. Who have little to no programming experience. It is meant to give you a taste of what programming is like.\n\n![Honeymoon](../images/city-trip.jpg)\n\n## *How does it work?*\n\n* This travel bucketlist has starting off points, tools and challenges\n* It up to *you* to find the solutions ( that's programming baby! ).\n* Use google or ask a neighbour when you get stuck\n* Have fun!\n\n### HTML/CSS Tasting\n[Make your first website](./1.html-css-tasting.md)\n\n### Visit the zoo\n[Make a game in scratch](./2.visit-the-zoo.md)\n\n### Take a swim in the sea\n[Remix a javascript game](./3.take-a-swim-in-the-sea.md)\n\n### Talk to a local\n[Choose a programming language](./4.talk-to-a-local.md)\n\n### Take a guided tour\n[Do a programming tutorial for your chosen language](./5.take-a-guided-tour.md)\n\n### Take some pictures\n\n[Take notes on the basics](./6.take-some-pictures.md)\n",
+        "contentDigest": "603c979af4c7f23c296d13afe999e162",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/README.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md absPath of file",
+      "internal": {
+        "content": "# Take some pictures\n\n## Take some notes on the basics\n\nWhile you're doing your first tutorial it's a good idea to take some notes. It's better for retention and you also create a cheat sheet for yourself so you don't have to look everything up.\n\n\n## For each concept write down:\n\n1. What is it?\n2. What does it look like in this programming language\n3. What is it used for?\n\n## Basics concepts that are in almost any programming language:\n\n- Strings\n\n- Numbers\n\n- Booleans\n\n- Array or List\n\n- Object or Dict\n\n- How to declare a variable\n\n- How to assign a variable\n\n- How to get the value of a variable\n\n- A function\n\n- Function definition\n\n- Calling a function\n\n- Return statement\n\n- Math operators\n\n- A conditional statement\n\n- Boolean operators\n\n- For loop\n\n- While loop\n\n- Data-types\n\n- Collections\n\n- Iterators\n\n- Classes\n",
+        "contentDigest": "234be64a89503bea4b7da48386e93767",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Handheld Honeymoon/6.take-some-pictures.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md absPath of file",
+      "internal": {
+        "content": "# Buy a Camel\n\n![Camel](../images/camel.gif)\n\n## Learn the basics of git\n\n**Why use git:**\n\nLearning programming requires a lot of experimentation. But the feeling that you might break code that you wrote can hold you back from doing that. Luckily there is a great solution that let's you 'turn back time' and it's called git. Version control with git is your camel that let's you explore the desert without fear that you can't get back.\n\nAs an added bonus git allows you to collaborate with other programmers. You can merge your version of a program with a version of someone else.\n\nLastly git allows you to easily save your code in remote repositories hosted in the cloud on platforms like github, gitlab or bitbucket. That way the chance that you permanently lose your work is almost impossible.\n\n## Overview:\n\n- Install git on your system\n- Learn how to use git\n- Make an account on github\n- Practice using git\n\n#### Install git on your machine\n\n[Follow the instructions for your OS here ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)\n\n#### Learn how to use git\n\n- #### Coding train\nFor a great and fun tutorial checkout [this](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) playlist by the coding train (60 minutes). Explains what git is and how it's used in an accessible way.\n\n- #### Learn Git in 20 minutes\nFor a shorter and windows specific introductions check out [this](https://www.youtube.com/watch?v=Y9XZQO1n_7c) video\n\n#### Make an account on github\n\n1. Go to [github.com](https://github.com/)\n2. Sign up\n3. Make your first repository\n4. [Learn about SSH keys](https://help.github.com/articles/connecting-to-github-with-ssh/)\n4. [Generate an SSH key and add it to your github account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-mac)\n\n#### Practice using git\n\nYou can use [this cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) to help you\n\n#### Challenges\n\n##### Your first git repo and commit\n\nBefore you can start using git in your project you have to make a git repository. Initially this repository will contain only one branch: The master branch. This is the version of your code that should always work. Once you make files you can 'add' files you want to commit and them 'commit' them to your master branch. A commit is like making a snapshot of what the code looks like. You can easily go back to this moment in time when you screw up.\n\n- [ ] Make a new git repository in your command line\n- [ ] Make a html file in the same folder as your git repository\n- [ ] Add the html file to staged files to be committed\n- [ ] Commit the first version of your html file to your git repository\n\n##### Your first branch and merge\n\nThe basic git workflow is to make your own branch for the feature you're making. On this branch you commit your changes. When your feature is complete you merge it back into the master branch. Branches are a great place to experiment with code. If you screw up you can just check out the master branch again and try again.\n\n- [ ] Make a branch and give it a name\n- [ ] Checkout this new branch\n- [ ] Make some changes to the html file you created\n- [ ] Add & Commit your changes on this branch\n- [ ] Checkout your master branch\n- [ ] Merge the branch you made into your master branch\n- [ ] Delete the branch you just merged (keep your master branch)\n\n##### Add a remote repository and push your branch\n\nRemote repositories hosted in the cloud on platforms like github, gitlab or bitbucket can serve as backups and as places to collaborate with other programmers. You will now have two git repositories to manage - you local repository (the one you've been using) and the remote repository (the one on github). You can 'push' branches to add them to the remote repository. You can 'fetch' branches from the remote that you don't have locally or 'pull' the latest changes to a branch that you already have.\n\n- [ ] Make a new repository on github\n- [ ] Add a this github repository to your local git repository as a remote repository\n- [ ] Push your master branch to your remote repository\n- [ ] Make a new branch, make some changes to your html file\n- [ ] Commit your changes on this branch\n- [ ] Push this branch to your remote repository\n\n##### Make pullrequest, merge and pull\n\nOnce your branch is in the remote repository, you can make a request to pull your changes into the master branch. Some people call this a merge request. A pullrequest is a moment where other people can have a look at the changes you're suggesting and give their comments and feedback. But you can first try working with a pullrequest yourself.\n\n- [ ] Make a pullrequest on github to merge this branch into your master branch\n- [ ] Merge your pullrequest\n- [ ] Checkout your local master branch\n- [ ] Pull the latest changes from your remote master branch to your local master branch\n\n##### Clone someone else's work\n\nNow that you know how to push and pull work you can start collaborating with others. An easy way to get started is to clone an existing repository from github. You basically get to copy people's code and use it for free! If you have something to add to their code you can make a pullrequest to the original repository.\n\n- [ ] Find an awesome repository on github [(or how about this one?)](https://github.com/thedaviddias/Resources-Front-End-Beginner)\n- [ ] Clone this repository to your local machine using git clone\n\n##### Collaborating with a team\n\nPlatforms like github allow multiple users to collaborate on the same remote git repository. That means you can each push your branches to the remote repository and then later merge them into a shared branch.\n\n- [ ] Create a repository for your group project\n- [ ] Add a file POEM.md to your repository\n- [ ] Go to settings\n- [ ] Go to collaborators\n- [ ] Add your team members to this repository\n- [ ] As a team member - clone the repository\n- [ ] Make a branch and give it your name, check it out\n- [ ] Add and commit a verse to the poem\n- [ ] Push the branch to the remote repository\n- [ ] Make a pullrequest to merge your changes into the master branch\n- [ ] Have your teammates review and comment on your poetry in the pullrequest\n- [ ] Ask one of your teammates to merge the pullrequest\n\n##### Visual Roadmap\n![Git](../images/git.jpg)\n",
+        "contentDigest": "73c34f80985798a810778d98beb4b480",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/1.buy-a-camel.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Get a ski pass\"\n---\n\n# Get a ski pass\n\n## Using the commandline\n\nUsing your computer to program is entering a whole new world entirely. Most of your computer is made very user friendly to be interacted with. Most of your computers functionality has a Graphic user interface (GUI) that you can use with the mouse or trackpad for example. The computer has much more functionality that non-programmers hardly use. The commandline is the place to access it.\n\n## Resources\n\n- #### [Basics - acessing and creating folders](https://tutorial.djangogirls.org/en/intro_to_command_line/)\n- #### [Important stuff like cUrl and sudo](https://code.tutsplus.com/articles/10-terminal-commands-that-will-boost-your-productivity--net-14105)\n",
+        "contentDigest": "c62154c26b07bc5d5e7657fb2a513336",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Get a ski pass",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/1.get-a-ski-pass.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md absPath of file",
+      "internal": {
+        "content": "# *The Desert of Despair*\n\n![Desert](../images/desert.gif)\n\nSo you've come to the desert of despair. You have a programming project or two like a simple page or a commandline app. You already have some of the professional tools like an editor a programming language and you know how to open your commandline. Now you want to build something meaningful, something that will impress you and your friends.\n\nThe next step is to start using the power of libraries and frameworks. By building on top of the work of more experienced programmers you can build much more impressive software at much faster pace.\n\nThis phase is probably the hardest part of programming because it requires learning many concepts and skills at the same time. Focus on keeping your projects small and doable and don't be afraid to repeat some steps to get more familiar with what your using and to feel competent. \n\n## *How does it work?*\n\n* This travel bucketlist has starting off points, tools and challenges\n* It up to *you* to find the solutions ( that's programming baby! ).\n* Use google or ask a neighbour when you get stuck\n* Have fun!\n\n### Buy a camel\n[Learn the basics of git](./1.buy-a-camel.md)\n\n### Do a multi-day desert trek\n[Use a framework](./2.multi-day-desert-trek.md)\n\n### Share your desert story\n[Deploy your application](./3.share-your-desert-story.md)\n",
+        "contentDigest": "db7dcb978790a6926595529c74b897ef",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Desert of Despair/README.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md absPath of file",
+      "internal": {
+        "content": "# Rent skiing gear\n\n## Download a programming language and tools\n\n**Note: this section is work in progress**\n\n## Overview:\n\n- Install an editor\n- Install a programming language\n- Install a package manager\n\n## Install an editor\n\n**Why:**\n\nA code editor makes it a lot easier to write code. It provides syntax highlighting to easily read code for example. It also autocompletes code you're typing to make you faster and prevent typos. In addition most code editors can be extensively modded to help you. You can install a 'linter' for your language to help prevent syntax mistakes for example.\n\n**Install a code editor like Atom or Sublime and play with it! *(Google them)***\n\n## Install a programming language and a version manager\n\n**Why:**\n\nUp till now you've probably been programming in a tool inside the browser. The language you've been using has been configured and installed for you and you have no control over it. As you start to incorporate libraries and frameworks into your programming you need to be able to run the code on your own machine as web based tools will not allow you to install libraries or frameworks. To manage the version of the language you're using also install a version manager.\n\n**Install your programming language of choice on your own computer\nGoogle:**\n\n‘install’ + ProgrammingLanguage + ‘on’ + OperatingSystem -> ***e.g. install ruby on mac***\n\n**Version managers:**\n\nI have used:\n- JavaScript - nodenv or nvm\n- Ruby - rbenv or rvm\n- Python - pipenv or virtualenv\n\nI have never used these myself so do your own research:\n- C# - CLR Version Tool (?)\n- Java - Jabba or jenv\n- PHP - phpenv or php-version\n- Swift - swiftenv\n\n## Install a package manager\n\n**Why:**\n\nWriting programs completely by yourself is incredible slow and inefficient. A lot of the problems you're facing have been solved by other programmers. A lot of commonly used code is available online in the form of libraries(small), packages(medium) and frameworks(large).\n\nThere are tools built specifically for downloading and installing this code on your machine. These tools are called: package managers. There are multiple ones for each language:\n\n**Install a package manager for your language:**\n\nI have used:\n- JavaScript - npm or yarn\n- Ruby - bundler\n- Python - pip\n\nI have never used these myself so do your own research:\n- C# - Chocolatey, Nuget or Paket\n- Java - Gradle or Maven\n- PHP - Composer\n- Swift - Included in core language (I think)\n",
+        "contentDigest": "a6c6611967f17d77d8177f503fc24587",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/2.rent-skiing-gear.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md absPath of file",
+      "internal": {
+        "content": "# Spend a day skiing\n\n## Make a small project\n\n**Note: this section is work in progress**\n\n#### Using your installed programming language, make small program.\n\nI suggest makeing 'commandline' apps that print text in the commandline and ask for input from the commandline.\n\n**Make a ‘command line’ application in your chosen language - Suggestions:**\n\n- A greeter app which asks for a name and then greets that person.\n\n- A pizzeria app that presents you with a list of pizzas you can order and allows you to choose one. Maybe you can even choose multiple pizzas. When you are done selecting it will tell you how much your order costs.\n\n- A quiz app that asks questions and then checks if the answer you give are correct. Maybe you can even play with multiple people and it will keep score!\n\n\n#### You need to find out:\n- How to run a program using your language. e.g. for ruby you can prefix your program with 'ruby' in the commandline and it will run:\n`$ruby myprogram.rb`. Google how to run a program in your language.\n\n- How print text to the commandline\n- How to get input from the user from the commandline. Some languages use a function named `prompt` or `readline` to do this. Ruby uses `gets`\n",
+        "contentDigest": "e3deeba2e6a3ac44b735488b44bcb4d8",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/3.spend-a-day-skiing.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md absPath of file",
+      "internal": {
+        "content": "# Go off piste\n\n## Use a library\n\n**This section is not made yet**\n",
+        "contentDigest": "8b71a9fcd62a96a77235512289d2509a",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/4.go-off-piste.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md absPath of file",
+      "internal": {
+        "content": "# *The Cliffs of Confusion*\n\nThe Cliffs of Confusion is a more adventurous trip for budding programmers who are familiar with some of basic programming concepts. This trip focuses on getting familiar with some professional programming tools and practices.\n\nLike an actual skiing trip you might have to get used to falling down and getting up again. When making your own programs for the first time dealing with bugs is a matter of googling and persevering. You can do it!\n\n![Cliffs](../images/ski-trip.jpg)\n\n## *How does it work?*\n\n* This travel bucketlist has starting off points, tools and challenges\n* It up to *you* to find the solutions ( that's programming baby! ).\n* Use google or ask a neighbour when you get stuck\n* Have fun!\n\n### Get a ski pass\n[Use the commandline](./1.get-a-ski-pass.md)\n\n### Rent skiing gear\n[Install your programming language and other useful tools](./2.rent-skiing-gear.md)\n\n### Spend a day skiing\n[Make a small project ](./3.spend-a-day-skiing.md)\n\n### Go off-piste\n[Use a library](./4.go-off-piste.md)\n",
+        "contentDigest": "217d46e38cb137c08fbc8e99dd48e865",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md absPath of file",
+        "parent": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/The Cliffs of Confusion/README.md"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/Travel Bucketlist.pdf absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/Travel Bucketlist.pdf absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "158278789ef404faf12a114ea122df00",
+        "mediaType": "application/pdf",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/Travel Bucketlist.pdf",
+      "relativePath": "images/Travel Bucketlist.pdf",
+      "extension": "pdf",
+      "size": 361623,
+      "prettySize": "362 kB",
+      "modifiedTime": "2018-01-09T01:31:21.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-09T01:31:20.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": "Travel Bucketlist.pdf",
+      "ext": ".pdf",
+      "name": "Travel Bucketlist",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212335,
+      "blocks": 712,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-09T01:31:21.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-09T01:31:20.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/git.jpg absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/git.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9b1a70b2c49ed73c28ff52f37235bd5e",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/git.jpg",
+      "relativePath": "images/git.jpg",
+      "extension": "jpg",
+      "size": 417122,
+      "prettySize": "417 kB",
+      "modifiedTime": "2018-02-28T14:32:14.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-02-28T14:32:14.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": "git.jpg",
+      "ext": ".jpg",
+      "name": "git",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212332,
+      "blocks": 816,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-02-28T14:32:14.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-02-28T14:32:14.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/desert.gif absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/desert.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3cc11eda92b1b9fd12b2cb34a23de39b",
+        "mediaType": "image/gif",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/desert.gif",
+      "relativePath": "images/desert.gif",
+      "extension": "gif",
+      "size": 929485,
+      "prettySize": "929 kB",
+      "modifiedTime": "2018-01-08T19:26:17.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-01-08T19:26:17.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": "desert.gif",
+      "ext": ".gif",
+      "name": "desert",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212330,
+      "blocks": 1816,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-01-08T19:26:17.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-01-08T19:26:17.000Z"
+    },
+    "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/camel.gif absPath of file": {
+      "id": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/camel.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "67945b6a5097d9e971fe9af6769925e1",
+        "mediaType": "image/gif",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images/camel.gif",
+      "relativePath": "images/camel.gif",
+      "extension": "gif",
+      "size": 2069333,
+      "prettySize": "2.07 MB",
+      "modifiedTime": "2018-02-16T00:22:02.000Z",
+      "accessTime": "2018-03-03T12:53:54.000Z",
+      "changeTime": "2018-03-03T11:57:16.000Z",
+      "birthTime": "2018-02-16T00:22:02.000Z",
+      "root": "/",
+      "dir": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/markdown/images",
+      "base": "camel.gif",
+      "ext": ".gif",
+      "name": "camel",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5212328,
+      "blocks": 4048,
+      "atime": "2018-03-03T12:53:54.000Z",
+      "mtime": "2018-02-16T00:22:02.000Z",
+      "ctime": "2018-03-03T11:57:16.000Z",
+      "birthtime": "2018-02-16T00:22:02.000Z"
     },
     "SitePage /destinations/": {
       "layout": "index",
@@ -551,7 +2342,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "df95b05b928970444ad81ef4130a04fa",
+        "contentDigest": "d03d725953320da59035cc6cce4a4845",
         "owner": "internal-data-bridge"
       }
     },
@@ -571,20 +2362,27 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "46a32562f0730b56f2fef69f6407f3ec",
+        "contentDigest": "03554065c431a6894514c1a8840d3786",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "20a687e238310be1f07132d5c9919c2b"
+    "PLUGINS_HASH": "d1e0d0fe87a3af1126b106175bea0d38"
   },
   "componentDataDependencies": {
-    "nodes": {},
+    "nodes": {
+      "___SOURCE___": [
+        "/"
+      ]
+    },
     "connections": {
       "SitePage": [
         "/dev-404-page/"
+      ],
+      "Directory": [
+        "/destinations/"
       ]
     }
   }

@@ -26,7 +26,7 @@ const FlippingCard = ({ picture, heading, details, pageUrl }) => (
                     <p className="card__price-only">Only</p>
                     <p className="card__price-value">$297</p>
                 </div>
-                <Link to="/destinations/" className="btn btn--white">Book now!</Link>
+                <Link to="/destinations" className="btn btn--white">Book now!</Link>
             </div>
         </div>
     </div>

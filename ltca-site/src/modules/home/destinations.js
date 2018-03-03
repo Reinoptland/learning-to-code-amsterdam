@@ -13,7 +13,7 @@ class Destinations extends Component {
 
                 <div className="row">
                     <div className="col-1-of-3">
-                        <FlippingCard/>
+                        <FlippingCard url={'/destinations'}/>
                     </div>
                 </div>
             </section>

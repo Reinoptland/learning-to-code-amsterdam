@@ -8,5 +8,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    { 
+      resolve : `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/markdown`,
+      },
+    },
+    `gatsby-transformer-remark`
   ],
+
+  siteMetadata: {
+    title: "Learning to code Amsterdam",
+  }
 }
