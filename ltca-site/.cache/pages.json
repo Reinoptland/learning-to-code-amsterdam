@@ -1,5 +1,117 @@
 [
     {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-desert-of-despair-2-mulit-day-desert-trek.json",
+        "path": "/the-desert-of-despair/2.mulit-day-desert-trek/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-desert-of-despair-3-share-your-desert-story.json",
+        "path": "/the-desert-of-despair/3.share-your-desert-story/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "cliffs-of-confusion-2-rent-skiing-gear.json",
+        "path": "/cliffs-of-confusion/2.rent-skiing-gear/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "cliffs-of-confusion-1-get-a-ski-pass.json",
+        "path": "/cliffs-of-confusion/1.get-a-ski-pass/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "cliffs-of-confusion-3-spend-a-day-skiing.json",
+        "path": "/cliffs-of-confusion/3.spend-a-day-skiing/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "cliffs-of-confusion-4-go-off-piste.json",
+        "path": "/cliffs-of-confusion/4.go-off-piste/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "cliffs-of-confusion-readme.json",
+        "path": "/cliffs-of-confusion/README/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-desert-of-despair-1-buy-a-camel.json",
+        "path": "/the-desert-of-despair/1.buy-a-camel/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-desert-of-despair-readme.json",
+        "path": "/the-desert-of-despair/README/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-handheld-honeymoon-1-html-css-tasting.json",
+        "path": "/the-handheld-honeymoon/1.html-css-tasting/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-handheld-honeymoon-2-visit-the-zoo.json",
+        "path": "/the-handheld-honeymoon/2.visit-the-zoo/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-handheld-honeymoon-3-take-a-swim-in-the-sea.json",
+        "path": "/the-handheld-honeymoon/3.take-a-swim-in-the-sea/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-handheld-honeymoon-4-talk-to-a-local.json",
+        "path": "/the-handheld-honeymoon/4.talk-to-a-local/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-handheld-honeymoon-5-take-a-guided-tour.json",
+        "path": "/the-handheld-honeymoon/5.take-a-guided-tour/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-handheld-honeymoon-6-take-some-pictures.json",
+        "path": "/the-handheld-honeymoon/6.take-some-pictures/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-handheld-honeymoon-readme.json",
+        "path": "/the-handheld-honeymoon/README/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
