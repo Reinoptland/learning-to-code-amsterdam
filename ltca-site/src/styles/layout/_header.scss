@@ -1,5 +1,12 @@
 .header {
-    height: 95vh;
+    &--small {
+        height: 45vh;
+    }
+
+    &--large {
+        height: 95vh;
+    }
+    
 
     /* Linear gradient + image for a hero header */
     background-image: linear-gradient(

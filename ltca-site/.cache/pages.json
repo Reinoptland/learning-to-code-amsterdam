@@ -7,6 +7,13 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-destinations-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "destinations.json",
+        "path": "/destinations/"
+    },
+    {
         "componentChunkName": "component---src-pages-index-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",

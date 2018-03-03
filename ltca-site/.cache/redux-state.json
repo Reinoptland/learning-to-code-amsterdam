@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d0d5c4e5c5aa6b0c2b689993166fb09f",
+        "contentDigest": "2c9c9a7031618f62fb58afa057aeb455",
         "owner": "internal-data-bridge"
       }
     },
@@ -521,13 +521,33 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-01T06:24:40.745Z",
+      "buildTime": "2018-03-03T08:21:55.675Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c35f81a18d04722a67e19cdafeb86d5c",
+        "contentDigest": "db491b51692f8bee72e4cebab963a918",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /destinations/": {
+      "layout": "index",
+      "jsonName": "destinations.json",
+      "internalComponentName": "ComponentDestinations",
+      "path": "/destinations/",
+      "component": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/pages/destinations.js",
+      "componentChunkName": "component---src-pages-destinations-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/reinoptland/Code/personal/learning-to-code-amsterdam/ltca-site/src/pages/destinations.js",
+      "id": "SitePage /destinations/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2e69df5871884144f843cc6b9b098893",
         "owner": "internal-data-bridge"
       }
     },
@@ -547,7 +567,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "974fe1f9d92c28f70d1c5cfbd26fd6bb",
+        "contentDigest": "1edbbf81ba2bba64c869dfeeedb94dc4",
         "owner": "internal-data-bridge"
       }
     }
