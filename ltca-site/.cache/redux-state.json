@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2c9c9a7031618f62fb58afa057aeb455",
+        "contentDigest": "1f7207888eedf6efc4271842e6b24c00",
         "owner": "internal-data-bridge"
       }
     },
@@ -490,6 +490,10 @@
             "version": "latest"
           },
           {
+            "name": "react-scroll-to-component",
+            "version": "^1.0.2"
+          },
+          {
             "name": "react-typography",
             "version": "^0.15.10"
           },
@@ -521,12 +525,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-03T08:21:55.675Z",
+      "buildTime": "2018-03-03T09:33:04.581Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "db491b51692f8bee72e4cebab963a918",
+        "contentDigest": "17de6767e4b16eb7e95bbfb5ad53b60f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -547,7 +551,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2e69df5871884144f843cc6b9b098893",
+        "contentDigest": "df95b05b928970444ad81ef4130a04fa",
         "owner": "internal-data-bridge"
       }
     },
@@ -567,14 +571,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1edbbf81ba2bba64c869dfeeedb94dc4",
+        "contentDigest": "46a32562f0730b56f2fef69f6407f3ec",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "fa82e1467bde275fe97e85599f10fe9e"
+    "PLUGINS_HASH": "20a687e238310be1f07132d5c9919c2b"
   },
   "componentDataDependencies": {
     "nodes": {},

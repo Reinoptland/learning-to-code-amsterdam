@@ -1,6 +1,8 @@
 import React from "react"
+import ScrollButton from "../../components/scrollbutton"
 
-const Header = ({ mainHeading, subHeading, buttonText, size }) => {
+
+const Header = ({ mainHeading, subHeading, buttonText, size, scrollToElement }) => {
     return (
         <div>
             <header className={`header header--${size}`}>
@@ -14,7 +16,7 @@ const Header = ({ mainHeading, subHeading, buttonText, size }) => {
                         { subHeading && <span className="heading-primary--sub">{ subHeading }</span> }
                     </h1>
 
-                    { buttonText && <a href="#" className="btn btn--white">{ buttonText }</a>}
+                    { buttonText && scrollToElement && <ScrollButton buttonText={buttonText} scrollToElement={scrollToElement}/>}
                 </div>
             </header>
         </div>
