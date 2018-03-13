@@ -31,13 +31,6 @@
         "componentChunkName": "component---src-templates-activity-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "cliffs-of-confusion-3-spend-a-day-skiing.json",
-        "path": "/cliffs-of-confusion/3.spend-a-day-skiing/"
-    },
-    {
-        "componentChunkName": "component---src-templates-activity-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "cliffs-of-confusion-4-go-off-piste.json",
         "path": "/cliffs-of-confusion/4.go-off-piste/"
     },
@@ -110,6 +103,13 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "the-handheld-honeymoon-readme.json",
         "path": "/the-handheld-honeymoon/README/"
+    },
+    {
+        "componentChunkName": "component---src-templates-activity-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "cliffs-of-confusion-3-spend-a-day-skiing.json",
+        "path": "/cliffs-of-confusion/3.spend-a-day-skiing/"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",

@@ -6,6 +6,7 @@
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
+@import "base/typography-markdown";
 @import "base/utilities";
 
 @import "components/button";
@@ -15,8 +16,10 @@
 
 @import "layout/grid";
 @import "layout/header";
+@import "layout/markdown";
 
 @import "pages/home";
+@import "pages/activity";
 
 @import "vendor/icon-font.scss";
 @import "vendor/prism-okaidia.scss";

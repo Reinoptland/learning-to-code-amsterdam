@@ -1,11 +1,13 @@
 import React from "react"
 import Link from "gatsby-link"
+import scrollToComponent from "react-scroll-to-component"
+
+import Header from "../components/header"
 
 import About from "../modules/home/about"
 import Features from "../modules/home/features"
-import Header from "../modules/home/header"
 import Destinations from "../modules/home/destinations"
-import scrollToComponent from "react-scroll-to-component"
+
 
 class Index extends React.Component {
   state = { destinationsReference: null }

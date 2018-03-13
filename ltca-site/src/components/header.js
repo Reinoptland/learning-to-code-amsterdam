@@ -1,8 +1,9 @@
 import React from "react"
-import ScrollButton from "../../components/scrollbutton"
+import ScrollButton from "./scrollbutton"
 
 
 const Header = ({ mainHeading, subHeading, buttonText, size, scrollToElement }) => {
+    console.log(mainHeading)
     return (
         <div>
             <header className={`header header--${size}`}>

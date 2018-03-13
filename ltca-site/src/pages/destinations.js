@@ -1,6 +1,6 @@
 import React from "react"
 
-import Header from "../modules/home/header"
+import Header from "../components/header"
 
 class Destinations extends React.Component {
 

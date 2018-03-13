@@ -1,0 +1,51 @@
+.markdown {
+
+
+    h2 {
+        font-size: $default-font-size-l;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: inline-block;
+        background-image: linear-gradient(to right, $primary-light, $primary-dark);
+        color: transparent;
+        transition: all .2s;
+        margin-bottom: 3rem;
+
+        @include background-clip(text);
+
+        &:hover {
+            transform:  skewY(2deg) scale(1.1);
+            text-shadow: .5rem 1rem 2rem rgba($black, .2);
+        }
+    }
+
+    h3 {
+        font-size: $default-font-size-m;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: $default-font-size-s;
+
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+
+        code {
+            padding: 1px .5rem;
+            color: $white;
+            background-color: $black;
+        }
+    }
+
+    li {
+        font-size: $default-font-size-s;
+        list-style-position:inside;
+
+        &:last-child {
+            margin-bottom: 3rem;
+        }
+    }
+
+}
