@@ -29,3 +29,7 @@ The handheld honeymoon is a trip for first time travellers. Who have little to n
 ### Take some pictures
 
 [Take notes on the basics](./6.take-some-pictures.md)
+
+### Dinner for two
+
+[Make a website together with another person](./7.dinner-for-two.md)
