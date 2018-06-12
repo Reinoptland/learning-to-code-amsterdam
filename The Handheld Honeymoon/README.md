@@ -17,19 +17,22 @@ The handheld honeymoon is a trip for first time travellers. Who have little to n
 ### Visit the zoo
 [Make a game in scratch](./2.visit-the-zoo.md)
 
+### Go to a museum
+[Try javascript for the first time](./3.go-to-a-museum.md)
+
 ### Take a swim in the sea
-[Remix a javascript game](./3.take-a-swim-in-the-sea.md)
+[Remix a javascript game](./4.take-a-swim-in-the-sea.md)
 
 ### Talk to a local
-[Choose a programming language](./4.talk-to-a-local.md)
+[Choose a programming language](./5.talk-to-a-local.md)
 
 ### Take a guided tour
-[Do a programming tutorial for your chosen language](./5.take-a-guided-tour.md)
+[Do a programming tutorial for your chosen language](./6.take-a-guided-tour.md)
 
 ### Take some pictures
 
-[Take notes on the basics](./6.take-some-pictures.md)
+[Take notes on the basics](./7.take-some-pictures.md)
 
 ### Dinner for two
 
-[Make a website together with another person](./7.dinner-for-two.md)
+[Make a website together with another person](./8.dinner-for-two.md)
