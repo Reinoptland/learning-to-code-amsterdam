@@ -12,6 +12,3 @@ You can now start to learn about more advanced concepts of development to make y
 * It up to *you* to find the solutions ( that's programming baby! ).
 * Use google or ask a neighbour when you get stuck
 * Have fun!
-
-### Trade with the locals
-[Use and api](./1.trade-with-the-locals.md)

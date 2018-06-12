@@ -6,7 +6,7 @@ So you've come to the desert of despair. You have a programming project or two l
 
 The next step is to start using the power of libraries and frameworks. By building on top of the work of more experienced programmers you can build much more impressive software at much faster pace.
 
-This phase is probably the hardest part of programming because it requires learning many concepts and skills at the same time. Focus on keeping your projects small and doable and don't be afraid to repeat some steps to get more familiar with what your using and to feel competent. 
+This phase is probably the hardest part of programming because it requires learning many concepts and skills at the same time. Focus on keeping your projects small and doable and don't be afraid to repeat some steps to get more familiar with what your using and to feel competent.
 
 ## *How does it work?*
 
@@ -18,8 +18,5 @@ This phase is probably the hardest part of programming because it requires learn
 ### Buy a camel
 [Learn the basics of git](./1.buy-a-camel.md)
 
-### Do a multi-day desert trek
-[Use a framework](./2.multi-day-desert-trek.md)
-
-### Share your desert story
-[Deploy your application](./3.share-your-desert-story.md)
+### Trade with the locals
+[Use and api](./2.trade-with-the-locals.md)
